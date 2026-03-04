@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Harshal Chelikani | Portfolio</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Syne:wght@400..800&display=swap"
+        rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <!-- Styles -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Background Animation Elements -->
+    <div class="background-mesh">
+        <div class="aurora-blob blob-1"></div>
+        <div class="aurora-blob blob-2"></div>
+        <div class="aurora-blob blob-3"></div>
+    </div>
+
+    <!-- Custom Cursor -->
+    <div class="custom-cursor"></div>
+    <div class="custom-cursor-glow"></div>
+
+    <!-- Navbar -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-content">
+            <div class="logo">
+                <a href="#home">HARSHAL'S PORTFOLIO</a>
+            </div>
+            <div class="hamburger">
+                <i class="fas fa-bars"></i>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="home" class="hero section-padding">
+            <div class="hero-content">
+                <span class="greeting">Welcome to my space</span>
+                <h1 class="hero-title">Hi, I'm <span class="highlight">Harshal Chelikani</span></h1>
+                <h2 class="hero-subtitle">
+                    <span id="typewriter"></span><span class="cursor-blink">|</span>
+                </h2>
+                <p class="hero-bio">
+                    A B.Tech CSE-AIML student passionate about building intelligent systems and clean web experiences.
+                </p>
+                <div class="hero-cta">
+                    <a href="#projects" class="btn btn-primary">View Projects</a>
+                    <a href="#contact" class="btn btn-secondary">Contact Me</a>
+                </div>
+                <div class="hero-social">
+                    <a href="https://github.com/harshal-789" target="_blank" aria-label="GitHub"><i
+                            class="fab fa-github"></i></a>
+                    <a href="https://linkedin.com/in/" target="_blank" aria-label="LinkedIn"><i
+                            class="fab fa-linkedin-in"></i></a>
+                    <a href="mailto:harshalch2004@gmail.com" aria-label="Email"><i class="fas fa-envelope"></i></a>
+                </div>
+            </div>
+
+            <div class="hero-graphics">
+                <div class="floating-shape shape-1"></div>
+                <div class="floating-shape shape-2"></div>
+                <div class="floating-shape shape-3"></div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="about section-padding reveal">
+            <div class="container">
+                <h2 class="section-title">About Me</h2>
+                <div class="about-grid">
+                    <div class="about-avatar">
+                        <div class="avatar-ring"></div>
+                        <img src="profile.jpg" alt="Harshal Chelikani" class="avatar-img">
+                    </div>
+                    <div class="about-info">
+                        <p class="about-text">
+                            I'm a third-year Computer Science student specialising in AI & ML at Manav Rachna
+                            International Institute of Research and Studies, Faridabad. I build ML-powered tools, web
+                            applications, and love turning complex ideas into clean, usable products.
+                        </p>
+                        <div class="about-stats">
+                            <div class="stat-card glass-card">
+                                <h3>3+</h3>
+                                <p>Projects</p>
+                            </div>
+                            <div class="stat-card glass-card">
+                                <h3>1</h3>
+                                <p>Internship</p>
+                            </div>
+                            <div class="stat-card glass-card">
+                                <h3>Top 5%</h3>
+                                <p>Dean's List Achiever</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="skills section-padding reveal">
+            <div class="container">
+                <h2 class="section-title">Tech Stack</h2>
+                <div class="skills-grid">
+                    <div class="skill-group glass-card">
+                        <h3>Languages & Dev</h3>
+                        <div class="tags">
+                            <span class="skill-tag">Python</span>
+                            <span class="skill-tag">C/C++</span>
+                            <span class="skill-tag">HTML</span>
+                            <span class="skill-tag">CSS</span>
+                            <span class="skill-tag">JavaScript</span>
+                            <span class="skill-tag">Flask</span>
+                            <span class="skill-tag">MySQL</span>
+                        </div>
+                    </div>
+
+                    <div class="skill-group glass-card">
+                        <h3>AI / ML</h3>
+                        <div class="tags">
+                            <span class="skill-tag">TensorFlow</span>
+                            <span class="skill-tag">Scikit-learn</span>
+                            <span class="skill-tag">NumPy</span>
+                            <span class="skill-tag">Pandas</span>
+                            <span class="skill-tag">Matplotlib</span>
+                            <span class="skill-tag">Seaborn</span>
+                            <span class="skill-tag">OpenCV</span>
+                        </div>
+                    </div>
+
+                    <div class="skill-group glass-card">
+                        <h3>Generative AI</h3>
+                        <div class="tags">
+                            <span class="skill-tag">Prompt Engineering</span>
+                            <span class="skill-tag">LLM Integration</span>
+                            <span class="skill-tag">Google Gemini API</span>
+                        </div>
+                    </div>
+
+                    <div class="skill-group glass-card">
+                        <h3>Tools</h3>
+                        <div class="tags">
+                            <span class="skill-tag">Git/GitHub</span>
+                            <span class="skill-tag">VS Code</span>
+                            <span class="skill-tag">Excel</span>
+                            <span class="skill-tag">Canva</span>
+                            <span class="skill-tag">Adobe Photoshop</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="projects section-padding reveal">
+            <div class="container">
+                <h2 class="section-title">What I've Built</h2>
+                <div class="projects-grid">
+
+                    <div class="project-card tilt-card glass-card">
+                        <div class="project-badge">Machine Learning | Security</div>
+                        <h3 class="project-title">Deepfake Image Detection System</h3>
+                        <p class="project-date">Sept–Nov 2024</p>
+                        <p class="project-desc">
+                            AI-powered tool using ResNet50 & Transfer Learning to detect manipulated media, with a Flask
+                            interface for real-time confidence scoring.
+                        </p>
+                        <div class="tags project-tags">
+                            <span class="skill-tag">Python</span>
+                            <span class="skill-tag">TensorFlow</span>
+                            <span class="skill-tag">Flask</span>
+                            <span class="skill-tag">OpenCV</span>
+                            <span class="skill-tag">Scikit-learn</span>
+                        </div>
+                        <a href="https://github.com/harshal-789" target="_blank" class="btn btn-outline">GitHub <i
+                                class="fas fa-location-arrow"></i></a>
+                    </div>
+
+                    <div class="project-card tilt-card glass-card">
+                        <div class="project-badge">Machine Learning | NLP</div>
+                        <h3 class="project-title">AI Resume Screening & Ranking System</h3>
+                        <p class="project-date">Feb–Mar 2025</p>
+                        <p class="project-desc">
+                            Streamlit app that parses multiple resumes and ranks candidates against a job description
+                            using TF-IDF similarity scoring.
+                        </p>
+                        <div class="tags project-tags">
+                            <span class="skill-tag">Python</span>
+                            <span class="skill-tag">Streamlit</span>
+                            <span class="skill-tag">NLP (TF-IDF)</span>
+                            <span class="skill-tag">Scikit-learn</span>
+                            <span class="skill-tag">Pandas</span>
+                        </div>
+                        <a href="https://github.com/harshal-789" target="_blank" class="btn btn-outline">GitHub <i
+                                class="fas fa-location-arrow"></i></a>
+                    </div>
+
+                    <div class="project-card tilt-card glass-card">
+                        <div class="project-badge">Generative AI | Web App</div>
+                        <h3 class="project-title">Precis: AI-Powered Document Analyst</h3>
+                        <p class="project-date">Oct 2024</p>
+                        <p class="project-desc">
+                            SPA that performs summarization, sentiment analysis, and concept extraction using Google
+                            Gemini API with structured JSON prompting.
+                        </p>
+                        <div class="tags project-tags">
+                            <span class="skill-tag">HTML5</span>
+                            <span class="skill-tag">CSS3</span>
+                            <span class="skill-tag">JavaScript</span>
+                            <span class="skill-tag">Google Gemini API</span>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Experience & Achievements Section -->
+        <section id="experience" class="experience section-padding reveal">
+            <div class="container">
+                <h2 class="section-title">Experience</h2>
+                <div class="timeline">
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content glass-card tilt-card">
+                            <h3 class="timeline-title">Salesforce Development Intern</h3>
+                            <p class="timeline-company">SmartBridge | Jun–Jul 2024</p>
+                            <ul class="timeline-details">
+                                <li>Built "HandsMen Threads" tailoring platform on Salesforce Lightning with 5 custom
+                                    objects, reducing manual processing by 75%.</li>
+                                <li>Automated order flows using Flow Builder and Apex triggers.</li>
+                                <li>Implemented role-based access control and multi-layer security.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Achievements Section -->
+        <section id="achievements" class="achievements section-padding reveal">
+            <div class="container">
+                <h2 class="section-title">Achievements</h2>
+                <div class="achievements-grid">
+                    <div class="achievement-card glass-card tilt-card">
+                        <div class="icon-wrap"><i class="fas fa-trophy"></i></div>
+                        <h3>Dean's List</h3>
+                        <p>Top 5% of programme (2024–25)</p>
+                    </div>
+                    <div class="achievement-card glass-card tilt-card">
+                        <div class="icon-wrap"><i class="fas fa-book-open"></i></div>
+                        <h3>Published Author</h3>
+                        <p>"The Evolution of Personalisation" at IGI Global (2024)</p>
+                    </div>
+                    <div class="achievement-card glass-card tilt-card">
+                        <div class="icon-wrap"><i class="fas fa-medal"></i></div>
+                        <h3>Science Fair – 3rd Prize</h3>
+                        <p>IoT-based Li-Fi technology demo (2024)</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact section-padding reveal">
+            <div class="container">
+                <div class="contact-card glass-card">
+                    <h2 class="section-title">Let's Connect</h2>
+                    <p class="contact-subtext">Open to collaborations, internships, and cool projects.</p>
+                    <div class="contact-links">
+                        <a href="mailto:harshalch2004@gmail.com" class="contact-row">
+                            <div class="icon-wrap"><i class="fas fa-envelope"></i></div>
+                            <span>harshalch2004@gmail.com</span>
+                        </a>
+                        <a href="https://github.com/harshal-789" target="_blank" class="contact-row">
+                            <div class="icon-wrap"><i class="fab fa-github"></i></div>
+                            <span>github.com/harshal-789</span>
+                        </a>
+                        <a href="https://linkedin.com/in/" target="_blank" class="contact-row">
+                            <div class="icon-wrap"><i class="fab fa-linkedin-in"></i></div>
+                            <span>linkedin.com/in/harshal-chelikani</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>Designed & Built by Harshal Chelikani &copy; 2025</p>
+    </footer>
+
+    <!-- Script -->
+    <script src="script.js" defer></script>
+</body>
+
+</html>
